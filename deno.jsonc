@@ -1,0 +1,12 @@
+{
+    "tasks": {
+        "start": "deno run main.ts"
+    },
+    "fmt": {
+        "singleQuote": true,
+        "indentWidth": 4
+    },
+    "imports": {
+        "aiscript": "npm:@syuilo/aiscript"
+    }
+}
