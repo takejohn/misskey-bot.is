@@ -13,4 +13,4 @@ const interpreter = new Interpreter({}, {
 
 const parser = new Parser();
 
-interpreter.exec(parser.parse('<: "Hello, world!"'));
+interpreter.exec(parser.parse(await Deno.readTextFile('./main.is')));

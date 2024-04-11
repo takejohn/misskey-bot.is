@@ -1,6 +1,6 @@
 {
     "tasks": {
-        "start": "deno run main.ts"
+        "start": "deno run --allow-read main.ts"
     },
     "fmt": {
         "singleQuote": true,
