@@ -12,4 +12,4 @@ const interpreter = new Interpreter({}, {
 
 const parser = new Parser();
 
-interpreter.exec(parser.parse(await Deno.readTextFile('./main.is')));
+interpreter.exec(parser.parse(await Deno.readTextFile(Deno.args[0])));
