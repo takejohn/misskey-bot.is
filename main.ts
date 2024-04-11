@@ -1,5 +1,4 @@
-import { Parser } from 'aiscript';
-import { Interpreter } from "aiscript";
+import { Interpreter, Parser } from '@syuilo/aiscript';
 
 const interpreter = new Interpreter({}, {
     out(value) {
@@ -8,7 +7,7 @@ const interpreter = new Interpreter({}, {
                 console.log(value.value);
                 break;
         }
-    }
+    },
 });
 
 const parser = new Parser();

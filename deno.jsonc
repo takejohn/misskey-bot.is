@@ -7,6 +7,6 @@
         "indentWidth": 4
     },
     "imports": {
-        "aiscript": "npm:@syuilo/aiscript"
+        "@syuilo/aiscript": "npm:@syuilo/aiscript@^0.17.0"
     }
 }
