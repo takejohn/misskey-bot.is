@@ -1,1 +1,4 @@
-<: "Hello, world!"
+let name = readline("契約書だよ。そこに名前を書きな。>")
+<: `フン。{name}というのかい。贅沢な名だねぇ。`
+let newName = name.pick(Math:rnd(0, name.len - 1))
+<: `今からお前の名前は{newName}だ。いいかい、{newName}だよ。分かったら返事をするんだ、{newName}!!`

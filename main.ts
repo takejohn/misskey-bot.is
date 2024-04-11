@@ -1,14 +1,7 @@
 import { Interpreter, Parser } from '@syuilo/aiscript';
+import { StdIO } from './src/StdIO.ts';
 
-const interpreter = new Interpreter({}, {
-    out(value) {
-        switch (value.type) {
-            case 'str':
-                console.log(value.value);
-                break;
-        }
-    },
-});
+const interpreter = new Interpreter({}, new StdIO());
 
 const parser = new Parser();
 
