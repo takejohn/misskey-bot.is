@@ -1,7 +1,8 @@
 import { Interpreter, Parser } from '@syuilo/aiscript';
-import { StdIO } from './src/StdIO.ts';
+import { stdio } from './src/StdIO.ts';
+import { Mk } from './src/functions/Mk.ts';
 
-const interpreter = new Interpreter({}, new StdIO());
+const interpreter = new Interpreter(Mk, stdio);
 
 const parser = new Parser();
 

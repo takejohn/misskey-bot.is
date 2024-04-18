@@ -37,6 +37,8 @@ export class StdIO implements InterpreterOptions {
     }
 }
 
+export const stdio = new StdIO();
+
 const COMMA = fmt.gray(', ');
 
 function toColoredText(value: values.Value, depth: number): string {

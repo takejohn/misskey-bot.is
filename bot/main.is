@@ -19,3 +19,12 @@ o.a = o
 let a = [null]
 a[0] = a
 <: a
+
+Mk:dialog('message', 'hello')
+Mk:dialog('message', 'hello', 'success')
+Mk:dialog('message', 'hello', 'warn')
+Mk:dialog('message', 'hello', 'error')
+Mk:dialog('message', 'hello', 'question')
+
+<: Mk:confirm('confirm', 'yes or no?', 'question')
+<: readline('value?')
