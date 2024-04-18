@@ -7,6 +7,7 @@
         "indentWidth": 4
     },
     "imports": {
+        "@std/fmt": "jsr:@std/fmt@^0.222.1",
         "@syuilo/aiscript": "npm:@syuilo/aiscript@^0.17.0"
     }
 }

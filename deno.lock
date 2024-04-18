@@ -2,7 +2,13 @@
   "version": "3",
   "packages": {
     "specifiers": {
+      "jsr:@std/fmt@^0.222.1": "jsr:@std/fmt@0.222.1",
       "npm:@syuilo/aiscript@^0.17.0": "npm:@syuilo/aiscript@0.17.0"
+    },
+    "jsr": {
+      "@std/fmt@0.222.1": {
+        "integrity": "ec3382f9b0261c1ab1a5c804aa355d816515fa984cdd827ed32edfb187c0a722"
+      }
     },
     "npm": {
       "@syuilo/aiscript@0.17.0": {
@@ -36,6 +42,7 @@
   "remote": {},
   "workspace": {
     "dependencies": [
+      "jsr:@std/fmt@^0.222.1",
       "npm:@syuilo/aiscript@^0.17.0"
     ]
   }

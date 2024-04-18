@@ -1,4 +1,21 @@
-let name = readline("契約書だよ。そこに名前を書きな。>")
-<: `フン。{name}というのかい。贅沢な名だねぇ。`
-let newName = name.pick(Math:rnd(0, name.len - 1))
-<: `今からお前の名前は{newName}だ。いいかい、{newName}だよ。分かったら返事をするんだ、{newName}!!`
+<: null
+<: false
+<: 0
+<: 'string'
+<: [null, false, 0, 'string']
+<: { a: null, b: false, c: 0, d: 'string' }
+<: @() {}
+<: @(a: num, b: num) {a + b}
+<: eval {return 0}
+<: eval {break}
+<: eval {continue}
+<: Error:create('description')
+<: Error:create('description', 42)
+
+let o = {}
+o.a = o
+<: o
+
+let a = [null]
+a[0] = a
+<: a
