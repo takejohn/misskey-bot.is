@@ -87,5 +87,4 @@ function toColoredText(value: values.Value, depth: number): string {
                 fmt.gray(': ') + value.value;
         }
     }
-    return '';
 }
